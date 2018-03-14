@@ -31,18 +31,18 @@
             <div class="row1">
                 <div class="col-md-4 col-md-2">
                 </div>
-                <div class="column">
-                    <div class="random-number">
-                        78
+                <div class="column1">
+                    <div id="random-number">
+                    
                     </div>
                 </div>
 
                 <div class="column">
 
                     <div class="count">
-                        Wins:
-                    </br>
-                        Loses:
+                        <span id="wins">Wins:</span>
+                        </br>
+                        <div id="losses">Losses:</div>
                     </div>
                 </div>
             </div>
@@ -50,28 +50,28 @@
         <div class="row2">
             <div class="col-md-2 col-md-2 col-md-2 col-md-2">
                 <div class="column">
-                    <div class="red-diamond">
+                    <div id="red-diamond">
                         <img src="assets/images/pink-crystal.jpeg" width="100px">
 
                     </div>
                 </div>
 
                 <div class="column">
-                    <div class="diamond">
+                    <div id="diamond">
                         <img src="assets/images/blue-diamond.jpeg" width="100px">
                     </div>
                 </div>
 
                 <div class="column">
 
-                    <div class="yellow-diamond">
+                    <div id="yellow-diamond">
                         <img src="assets/images/yellow-crystal.jpeg" width="100px">
                     </div>
                 </div>
 
                 <div class="column">
 
-                    <div class="green-square">
+                    <div id="green-square">
                         <img src="assets/images/green-square.jpeg" width="100px">
                     </div>
                 </div>
@@ -80,16 +80,20 @@
         </div>
 
         <div class="score">
-            <p>Your total score is:</p>
+                <p>Your total score is:</p>
+
         </div>
 
         <div class="footer">
-            <footer>0</footer>
+                <div id="total-score"></div>
+
         </div>
 
 
     </div>
-    <script src="game.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="assets/game.js"></script>
 
 </body>
 
