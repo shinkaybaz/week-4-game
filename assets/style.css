@@ -1,0 +1,59 @@
+body {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbfz3gRZbIvs-kdHM2crsGq_DWN0R8kqxEeqY6fGV6vsXHzsgv);
+}
+
+header {
+    color: white;
+    background-color: orange;
+    width: 440px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.content {
+    color: green;
+    background-color: beige;
+    width: 30em;
+    font-size: 30px;
+}
+
+.row1 {
+    display: flex;
+}
+.random-number {
+    background-color: green;
+    color: black;
+    width: 7em;
+    height: 3em;
+    font-size: 50px;
+    flex: 1;
+
+}
+
+.count {
+    color: black;
+    background-color: aqua;
+    width: 7em;
+    height: 3.7em;
+    font-size: 40px;
+    flex: 1;
+}
+
+.row2 {
+    margin: 10px;
+}
+.score {
+    background-color: teal;
+    width: 10em;
+    color: white;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: teal;
+    width: 8em;
+    height: 8em;
+    color: white;
+    font-size: 20px;
+}
+
