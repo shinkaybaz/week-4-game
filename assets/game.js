@@ -29,7 +29,7 @@ $(document).ready(function () {
     // Reset
     function resetGame() {
         computerGuess = Math.floor(Math.random() * 101 + 19);
-        $('#random-number').text(compuerGuess);
+        $('#random-number').text(computerGuess);
         redCrystal = Math.floor(Math.random() * 11 + 1);
         blueCrystal = Math.floor(Math.random() * 11 + 1);
         yellowCrystal = Math.floor(Math.random() * 11 + 1);
